@@ -1,0 +1,61 @@
+.container {
+    display: block;
+    height: auto;
+    padding-bottom: 70px;
+}
+
+#fonts-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (hover: none) {
+   
+    #fonts-container {
+        display: block;
+        padding-left: 10%;
+    }
+
+    .fonts-section {
+        width: 85%;
+    }
+}
+
+section {
+    width: 50%;
+}
+
+#abril {
+    font-family: 'Abril Fatface', cursive;
+    color: #455736;
+}
+
+#merriweather {
+    font-family: 'Merriweather', serif;
+    color: #c83349;
+}
+
+#barriecito {
+    font-family: 'Barriecito', cursive;
+    color: #405d27;
+}   
+
+#niconne {
+    font-family: 'Niconne', cursive;
+    color: #806600;
+}
+
+#smooch_sans {
+    font-family: 'Smooch Sans', sans-serif;
+    color:  #ff66c7;
+}
+
+#ubuntu_mono {
+    font-family: 'Ubuntu Mono', monospace;
+    color: #209ef8;
+}
+
+#work_sans {
+    font-family: 'Work Sans', sans-serif;
+    color: #ab157f;
+}

@@ -1,0 +1,128 @@
+.container {
+    display: block;
+    height: auto;
+    padding-bottom: 70px;
+}
+
+.figure-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (hover: none) {
+   
+    .figure-container {
+        width: 85%;
+        display: block;
+        padding-right: 10%;
+    }
+
+    .figure {
+        width: 85%;
+    }
+}
+
+figure {
+    /*display: flex;*/
+    height: 25%;
+    width: 25%;
+}
+
+
+
+.heart {
+    position: relative;
+    
+    width: 200px;
+    height: 160px;
+  }
+
+  .heart:before,
+  .heart:after {
+    position: absolute;
+    content: "";
+    
+    width: 100px;
+    height: 160px;
+    left: 100px;
+    
+    background-color: tomato;
+    
+    border-radius: 100px 100px 0 0;
+    
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  .heart:after {
+    left: 0;
+    
+    transform-origin: 100% 100%;
+    transform: rotate(45deg);
+  }
+  
+#beachy:before, #beachy:after {
+    background-color: #ffcc5c;
+}
+
+#rosary:before, #rosary:after {  
+    background-color: #c83349;
+}
+
+#forest:before, #forest:after {  
+    background-color: #405d27;
+    }
+
+#city-snow:before, #city-snow:after {  
+    background-color: #f5e0cc;
+    }
+
+#sasa:before, #sasa:after {  
+    background-color: #ff66c7;
+    }
+
+#auau:before, #auau:after {  
+    background-color: #209ef8;
+    }
+
+#grapefruit:before, #grapefruit:after {  
+    background-color:#ff338c;
+    }
+
+#gooseberry:before, #gooseberry:after {  
+    background-color: #806600;
+    }
+
+#exotic:before, #exotic:after {  
+    background-color: #ffb280;
+    }
+
+#london:before, #london:after {  
+    background-color: #455736;
+    }
+
+#happy:before, #happy:after {  
+    background-color: #00ff80;
+    }
+
+
+#juicy:before, #juicy:after {  
+    background-color: #ff9424;
+    }
+
+#ocean:before, #ocean:after {  
+    background-color: #435a75;
+    }
+
+#sahara:before, #sahara:after {  
+    background-color: #ab157f;
+    }
+
+.color-name {
+    color: #b3b300;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-shadow: black 0.75px 0.75px;
+}

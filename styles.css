@@ -1,0 +1,137 @@
+/* Universal styles */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barriecito&family=Merriweather:ital@0;1&family=Niconne&family=Smooch+Sans&family=Ubuntu+Mono&family=Work+Sans:wght@400;500;800&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background-color: bisque;
+}
+
+a {
+    text-decoration: none;
+    color: #7e1897;
+}
+/* Header */
+
+header {
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+    background: #0033cc;
+    z-index: 10;
+    box-shadow: 0 3px cyan;
+}
+
+@media (hover :hover) {
+
+    h1:hover {
+        color: #f8afff;
+    }
+
+    header:hover {
+        box-shadow: 0 3px #f8afff;
+    }
+}
+
+header:active {
+    color: #f8afff;
+    box-shadow: inset 0 3px #f8afff;
+}
+
+#main-header {
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    bottom: 7px;
+    color: cyan;
+}
+
+/* Main content */
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex: 1;
+    top: 10%;
+    display: flex;
+    /*justify-content: center;*/
+    flex-wrap: wrap;
+    align-content: space-between;
+    background: linear-gradient(to bottom right, #ccffcc 0%, #ff9966 100%);
+}
+
+.section-header {
+    top: 100px;
+}
+
+.section-link {
+  
+    width: 50%;
+    height: 50%;
+}
+
+h1, h1:hover {
+    font-size: 24px;
+    color: #b3b300;
+    text-shadow: black 1px 1px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.section-link:hover {
+    text-decoration: underline 2px;
+}
+
+.section-link:active {
+    text-decoration: none;
+    color: red;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #0033cc;
+    align-content: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+button {
+    background-color: cyan;
+    height: 45%;
+    box-shadow: 3px 2px #1a2546;
+}
+
+@media (hover :hover) {
+    
+    button:hover {
+        background-color:  #f8afff;
+    }
+
+}
+
+
+button:active {
+    background-color:#f8afff;
+    box-shadow: inset 3px 2px #1a2546;
+}
